@@ -1,4 +1,4 @@
-package automorphic
+package number
 
 import "testing"
 
@@ -47,7 +47,7 @@ func TestIsAutomorphicNumber(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := isNumberAutomorphic(tt.number); got != tt.want {
+			if got := isAutomorphic(tt.number); got != tt.want {
 				t.Errorf("result of automorphicity checking: %v, is number automorphic realy: %v", got, tt.want)
 			}
 		})

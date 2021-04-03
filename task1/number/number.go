@@ -1,8 +1,8 @@
-package automorphic
+package number
 
 import "math"
 
-func isNumberAutomorphic(number int) bool {
+func isAutomorphic(number int) bool {
 	square := int(math.Pow(float64(number), 2))
 	if number < 0 {
 		return false
