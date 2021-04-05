@@ -11,7 +11,7 @@ func GroupByOccurrences(stringToGroup string) string {
 	words := strings.FieldsFunc(
 		stringToGroup,
 		func(r rune) bool {
-			return !unicode.IsLetter(r)
+			return !unicode.IsLetter(r) && !unicode.IsNumber(r)
 		})
 
 	type oi struct {
