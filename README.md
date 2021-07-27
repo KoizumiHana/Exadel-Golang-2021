@@ -1,7 +1,4 @@
 # Repository for Go language sandbox
-
----
-
 ### Tasks:
 
 - [x] [task 1 - Automorphic numbers](https://github.com/KoizumiHana/Exadel-Golang-2021/tree/master/task1/number)
